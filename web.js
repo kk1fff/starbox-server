@@ -25,8 +25,8 @@ app.get('/', function(req, res) {
 //   -> [B] (List in JSON)
 //   <- [B] (Diff entity)
 
-app.get('/r/\\w+/getlist', handleRepo.handleGetGetList);
-app.put('/r/\\w+/pushfile', handleRepo.handlePutPushFile);
+// app.get('/r/\\w+/getlist', handleRepo.handleGetGetList);
+// app.put('/r/\\w+/pushfile', handleRepo.handlePutPushFile);
 // app.get('/r/\\w+/getfile/.*', handleRepo.handleGetFile);
 // app.post('/r/\\w+/listdiff', handleRepo.handleListDiff);
 
